@@ -2,11 +2,9 @@ import argparse
 
 
 class SalaryReport:
-    number_report = 0
+
     def __init__(self, files: tuple):
         self.files = files
-        SalaryReport.number_report += 1
-
 
     def get_data_from_report(self):  # получаем данные из отчётов
         data = []
@@ -29,7 +27,7 @@ class SalaryReport:
             report['department'][i['department']]['hours'].append(int(i['hours_worked']))
             report['department'][i['department']]['rate'].append(i['rate'])
             report['department'][i['department']]['payout'].append(float(i['rate']) * float(i['hours_worked']))
-        with open(f'report.txt{self.number_report}', 'a', encoding='utf-8') as file:
+        with open(f'report.txt', 'a', encoding='utf-8') as file:
             self.number_report += 1
             col_name = f"{'name':>19}{'hours':>27}{'rate':>10}{'payout':>11}\n"
             file.write(col_name)
