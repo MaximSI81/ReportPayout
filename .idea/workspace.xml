@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd9a3f85-dfd8-4edd-a944-bca79688071f" name="Changes" comment="report_commit_4">
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_main.py" afterDir="false" />
-    </list>
+    <list default="true" id="bd9a3f85-dfd8-4edd-a944-bca79688071f" name="Changes" comment="finish_commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -259,7 +254,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748617801156</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="report_commit_finish">
+      <option name="closed" value="true" />
+      <created>1748620904582</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1748620904582</updated>
+    </task>
+    <task id="LOCAL-00011" summary="finish_commit">
+      <option name="closed" value="true" />
+      <created>1748621196172</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1748621196172</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +289,8 @@
     <MESSAGE value="report_commit_2" />
     <MESSAGE value="report_commit_3" />
     <MESSAGE value="report_commit_4" />
-    <option name="LAST_COMMIT_MESSAGE" value="report_commit_4" />
+    <MESSAGE value="report_commit_finish" />
+    <MESSAGE value="finish_commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish_commit" />
   </component>
 </project>
