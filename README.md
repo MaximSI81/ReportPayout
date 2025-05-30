@@ -22,7 +22,7 @@
 
 Базовый запуск
    ```bash
-   python employee.py data1.csv data2.csv data3.csv --report payout
+   python src/employee.py data1.csv data2.csv data3.csv --report payout
    ```
 ## Формат входных данных (CSV)
 Пример файла data.csv:
