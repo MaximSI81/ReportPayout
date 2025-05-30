@@ -30,11 +30,9 @@ class SalaryEmployees:
             report["department"][i["department"]]["payout"].append(float(i["rate"]) * float(i["hours_worked"]))
         col_name = f'{"name":>19}{"hours":>27}{"rate":>10}{"payout":>11}'
         data_report.append(col_name)
-        print(col_name)
         for i in sorted(report["department"]):
             depart_name = i
             data_report.append(depart_name)
-            print(depart_name)
             name = report["department"][i]["name"]
             hours = report["department"][i]["hours"]
             rate = report["department"][i]["rate"]
@@ -42,16 +40,17 @@ class SalaryEmployees:
             for n, h, r, p in zip(name, hours, rate, payout):
                 data_employee = f'{"-" * 14} {n:>1}{" " * (26 - len(n))}{h}{r:>10}{"$":>8}{p}'
                 data_report.append(data_employee)
-                print(data_employee)
             sum_hours = sum(hours)
             sum_payout = sum(payout)
             result_sum = f'{sum_hours:>44} {"$":>17}{sum_payout}'
             data_report.append(result_sum)
-            print(result_sum)
-        with open("report_file.json", "w") as f:
+        with open("./reports_result/report_file.json", "w") as f:  # записываем json
             f.write(str(report).replace("'", '"'))
-        with open("report_res.txt", "w") as f:
+        with open("./reports_result/report_res.txt", "w") as f:  # записываем файл txt
             f.write("\n".join(data_report))
+        with open("./reports_result/report_res.txt", 'r') as f:  # вывод в консоль
+            print(f.read())
+        return data_report
 
     def get_avg_rate_department(self):  # возможность добавления отчёта средней ставки
         print("возможность добавления отчёта средней ставки")
