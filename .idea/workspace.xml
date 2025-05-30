@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd9a3f85-dfd8-4edd-a944-bca79688071f" name="Changes" comment="report_commit_3">
+    <list default="true" id="bd9a3f85-dfd8-4edd-a944-bca79688071f" name="Changes" comment="report_commit_4">
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dada.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports_result/report_file.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports_result/report_file.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports_result/report_res.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_result/report_res.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MaximSI81"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MaximSI81&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MaximSI81/ReportPayout.git",
-    "accountId": "4ab5de72-3883-4d35-a87f-8c560a9ef63e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MaximSI81/ReportPayout.git&quot;,
+    &quot;accountId&quot;: &quot;4ab5de72-3883-4d35-a87f-8c560a9ef63e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -48,36 +46,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.pytest for test_main.test_empty_files.executor": "Run",
-    "Python tests.pytest for test_main.test_get_data_from_report.executor": "Run",
-    "Python tests.pytest for test_main.test_get_salary_report.executor": "Run",
-    "Python tests.pytest for test_main.test_invalid_files.executor": "Run",
-    "Python tests.pytest for test_main.test_output.executor": "Run",
-    "Python tests.pytest for test_main.test_s.executor": "Run",
-    "Python tests.pytest in test_main.py.executor": "Run",
-    "Python.payout.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest for test_main.test_empty_files.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main.test_get_data_from_report.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main.test_get_salary_report.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main.test_invalid_files.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main.test_output.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main.test_s.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_main.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.payout.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\safon\PycharmProjects\ReportPayout" />
       <recent name="C:\Users\safon\PycharmProjects\ReportPayout\reports" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_main.test_output">
+  <component name="RunManager" selected="Python tests.pytest for test_main.test_empty_files">
     <configuration name="pytest for test_main.test_empty_files" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ReportPayout" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -94,7 +92,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -165,9 +163,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_main.test_output" />
-        <item itemvalue="Python tests.pytest for test_main.test_get_data_from_report" />
         <item itemvalue="Python tests.pytest for test_main.test_empty_files" />
+        <item itemvalue="Python tests.pytest for test_main.test_get_data_from_report" />
+        <item itemvalue="Python tests.pytest for test_main.test_output" />
         <item itemvalue="Python tests.pytest for test_main.test_get_salary_report" />
         <item itemvalue="Python tests.pytest for test_main.test_invalid_files" />
       </list>
@@ -221,13 +219,65 @@
       <option name="project" value="LOCAL" />
       <updated>1748610035276</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="report_commit_3">
+      <option name="closed" value="true" />
+      <created>1748617159120</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748617159120</updated>
+    </task>
+    <task id="LOCAL-00006" summary="report_commit_3">
+      <option name="closed" value="true" />
+      <created>1748617233202</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748617233202</updated>
+    </task>
+    <task id="LOCAL-00007" summary="report_commit_4">
+      <option name="closed" value="true" />
+      <created>1748617299206</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1748617299206</updated>
+    </task>
+    <task id="LOCAL-00008" summary="report_commit_4">
+      <option name="closed" value="true" />
+      <created>1748617746868</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1748617746868</updated>
+    </task>
+    <task id="LOCAL-00009" summary="report_commit_4">
+      <option name="closed" value="true" />
+      <created>1748617801156</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1748617801156</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="report_commit_1" />
     <MESSAGE value="report_commit_2" />
     <MESSAGE value="report_commit_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="report_commit_3" />
+    <MESSAGE value="report_commit_4" />
+    <option name="LAST_COMMIT_MESSAGE" value="report_commit_4" />
   </component>
 </project>

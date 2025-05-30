@@ -55,7 +55,7 @@ def test_output(get_csv_file):  # тест на проверку записи в
     with open('./tests/test_report.txt', 'w', encoding='utf-8') as f:
         f.write("\n".join(data_report))
 
-    with open('./test_report.txt', 'r') as f:
+    with open('./tests/test_report.txt', 'r') as f:
         report_content = f.read()
         assert "Alice Johnson" in report_content
         assert "Bob Smith" in report_content
