@@ -22,7 +22,7 @@
 
 Базовый запуск
    ```bash
-   python payout.py data1.csv data2.csv data3.csv --report payout
+   python employee.py data1.csv data2.csv data3.csv --report payout
    ```
 ## Формат входных данных (CSV)
 Пример файла data.csv:
@@ -39,7 +39,7 @@
 
 Проект включает unit-тесты:
    ```bash
-   pytest test_payout.py -v
+   pytest test_main.py -v
    ```
 
 ## Тесты проверяют:
@@ -52,9 +52,9 @@
 ```
    ReportPayout/
    ├── src/
-   │   └── payout.py              # Основной скрипт
+   │   └── employee.py              # Основной скрипт
    ├── tests/
-   │   └── test_payout.py         # Тесты
+   │   └── test_main.py         # Тесты
    ├── data/
    │   ├── data1.csv              # Пример данных
    │   ├── data2.csv
