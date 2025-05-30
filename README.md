@@ -54,9 +54,12 @@
 ```
    ReportPayout/
    ├── src/
-   │   └── employee.py              # Основной скрипт
+   │   └── employee.py            # Основной скрипт
    ├── tests/
-   │   └── test_main.py         # Тесты
+   │   ├── empty.csv              # тестовые файлы
+   │   ├── data.csv
+   │   ├── test_report.txt             
+   │   └── test_main.py           # Скрипт тесты
    ├── data/
    │   ├── data1.csv              # Пример данных
    │   ├── data2.csv
