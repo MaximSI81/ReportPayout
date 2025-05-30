@@ -1,0 +1,7 @@
+               name                      hours      rate     payout
+Design
+-------------- Bob Smith                 150        40       $6000.0
+                                         150                 $6000.0
+Marketing
+-------------- Alice Johnson             160        50       $8000.0
+                                         160                 $8000.0
