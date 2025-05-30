@@ -44,7 +44,7 @@ def test_empty_files():
     assert len(data) == 0
 
 
-def test_get_salary_report():
+def test_get_salary_report():  # проверка записи в формате json
     with open('./reports_result/report_file.json', 'r', encoding='utf-8') as f:
         assert type(json.load(f)) is dict
 

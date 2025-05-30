@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd9a3f85-dfd8-4edd-a944-bca79688071f" name="Changes" comment="report_commit_1">
-      <change afterPath="$PROJECT_DIR$/tests/test_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ReportPayout.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ReportPayout.iml" afterDir="false" />
+    <list default="true" id="bd9a3f85-dfd8-4edd-a944-bca79688071f" name="Changes" comment="report_commit_3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/payout.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/employee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dada.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_result/report_file.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports_result/report_file.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_result/report_res.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_result/report_res.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,7 @@
     "Python tests.pytest for test_main.test_get_data_from_report.executor": "Run",
     "Python tests.pytest for test_main.test_get_salary_report.executor": "Run",
     "Python tests.pytest for test_main.test_invalid_files.executor": "Run",
+    "Python tests.pytest for test_main.test_output.executor": "Run",
     "Python tests.pytest for test_main.test_s.executor": "Run",
     "Python tests.pytest in test_main.py.executor": "Run",
     "Python.payout.executor": "Run",
@@ -63,10 +66,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\safon\PycharmProjects\ReportPayout" />
       <recent name="C:\Users\safon\PycharmProjects\ReportPayout\reports" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_main.test_get_salary_report">
+  <component name="RunManager" selected="Python tests.pytest for test_main.test_output">
     <configuration name="pytest for test_main.test_empty_files" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ReportPayout" />
       <option name="ENV_FILES" value="" />
@@ -107,7 +111,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -135,30 +139,37 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_main.test_s" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_main.test_output" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ReportPayout" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_main.test_s&quot;" />
+      <option name="_new_target" value="&quot;test_main.test_output&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest for test_main.test_output" />
+      <item itemvalue="Python tests.pytest for test_main.test_empty_files" />
+      <item itemvalue="Python tests.pytest for test_main.test_get_data_from_report" />
+      <item itemvalue="Python tests.pytest for test_main.test_get_salary_report" />
+      <item itemvalue="Python tests.pytest for test_main.test_invalid_files" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_main.test_get_salary_report" />
-        <item itemvalue="Python tests.pytest for test_main.test_empty_files" />
-        <item itemvalue="Python tests.pytest for test_main.test_invalid_files" />
+        <item itemvalue="Python tests.pytest for test_main.test_output" />
         <item itemvalue="Python tests.pytest for test_main.test_get_data_from_report" />
-        <item itemvalue="Python tests.pytest for test_main.test_s" />
+        <item itemvalue="Python tests.pytest for test_main.test_empty_files" />
+        <item itemvalue="Python tests.pytest for test_main.test_get_salary_report" />
+        <item itemvalue="Python tests.pytest for test_main.test_invalid_files" />
       </list>
     </recent_temporary>
   </component>
@@ -194,11 +205,29 @@
       <option name="project" value="LOCAL" />
       <updated>1748470574206</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="report_commit_2">
+      <option name="closed" value="true" />
+      <created>1748606020200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748606020200</updated>
+    </task>
+    <task id="LOCAL-00004" summary="report_commit_3">
+      <option name="closed" value="true" />
+      <created>1748610035276</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748610035276</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="report_commit_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="report_commit_1" />
+    <MESSAGE value="report_commit_2" />
+    <MESSAGE value="report_commit_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="report_commit_3" />
   </component>
 </project>
