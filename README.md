@@ -20,11 +20,15 @@
    ```bash
    python --version
 
+3. Импортирована библиотека PyTest
+   ```bash
+   pip install pytest
+
 ## 🚀 Использование
 
 Базовый запуск
    ```bash
-   python src/employee.py ./reports/data1.csv ./reports/data2.csv ./reports/data3.csv --report payout
+   python3 src/employee.py ./reports/data1.csv ./reports/data2.csv ./reports/data3.csv --report payout
    ```
 ## Формат входных данных (CSV)
 Пример файла data.csv:
