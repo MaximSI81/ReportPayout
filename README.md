@@ -24,7 +24,7 @@
 
 Базовый запуск
    ```bash
-   python src/employee.py data1.csv data2.csv data3.csv --report payout
+   python src/employee.py ./reports/data1.csv ./reports/data2.csv ./reports/data3.csv --report payout
    ```
 ## Формат входных данных (CSV)
 Пример файла data.csv:
@@ -41,7 +41,7 @@
 
 Проект включает unit-тесты:
    ```bash
-   pytest test_main.py -v
+   pytest ./tests/test_main.py -v
    ```
 
 ## Тесты проверяют:
