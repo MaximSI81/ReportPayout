@@ -11,7 +11,7 @@ def get_csv_file():
         "2,bob@example.com,Bob Smith,Design,150,40"
     ]
 
-    csv_path = './dada.csv'
+    csv_path = './tests/dada.csv'
     with open(csv_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(csv_data))
     return [str(csv_path)]
@@ -34,7 +34,7 @@ def test_get_data_from_report(get_csv_file):
 
 def test_empty_files():
     # проверка на пустые файлы или пустые отчеты без данных
-    empty_csv = "./empty.csv"
+    empty_csv = "./tests/empty.csv"
     with open(empty_csv, "w", encoding='utf-8') as f:
         f.write("")
 
@@ -52,7 +52,7 @@ def test_get_salary_report():  # проверка записи в формате
 def test_output(get_csv_file):  # тест на проверку записи в txt файл
     salary = SalaryEmployees(get_csv_file)
     data_report = salary.get_salary_report()
-    with open('./test_report.txt', 'w', encoding='utf-8') as f:
+    with open('./tests/test_report.txt', 'w', encoding='utf-8') as f:
         f.write("\n".join(data_report))
 
     with open('./test_report.txt', 'r') as f:
