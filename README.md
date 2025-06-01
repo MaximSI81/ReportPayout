@@ -64,7 +64,7 @@
    │   ├── data.csv
    │   ├── test_report.txt             
    │   └── test_main.py           # Скрипт тесты
-   ├── data/
+   ├── reports/
    │   ├── data1.csv              # Пример данных
    │   ├── data2.csv
    │   └── data3.csv
