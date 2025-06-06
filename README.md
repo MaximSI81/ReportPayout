@@ -20,11 +20,15 @@
    ```bash
    python --version
 
+3. Установлена библиотека PyTest
+   ```bash
+   pytest --version
+
 ## 🚀 Использование
 
 Базовый запуск
    ```bash
-   python src/employee.py ./reports/data1.csv ./reports/data2.csv ./reports/data3.csv --report payout
+   python3 src/employee.py ./reports/data1.csv ./reports/data2.csv ./reports/data3.csv --report payout
    ```
 ## Формат входных данных (CSV)
 Пример файла data.csv:
@@ -60,7 +64,7 @@
    │   ├── data.csv
    │   ├── test_report.txt             
    │   └── test_main.py           # Скрипт тесты
-   ├── data/
+   ├── reports/
    │   ├── data1.csv              # Пример данных
    │   ├── data2.csv
    │   └── data3.csv
